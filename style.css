@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+    background-color: wheat;
+}
+
+.logo {
+    width: 80px;
+    height: 70px;
+    background-image: url('swiggy-transparent-icon-free-png.webp');
+    background-size: cover;
+    display: flex;
+    margin-top: 0px;
+}
+
+span {
+    font-size: 20px;
+    display: flex;
+    gap: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+#Select {
+    height: 40px;
+    width: 70px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+.content {
+    height: 50px;
+    color: black;
+    font-weight: bolder;
+    padding-left: 100px;
+    font-size: xx-large;
+    padding-top: 30px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    background-color: white;
+    padding: 10px;
+}
+
+.div1 {
+    height: 220px;
+    width: 220px;
+    /* background-color: blue; */
+    background-image: url('OIP (4).webp');
+    background-size: cover;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+}
+
+.div1:hover {
+    transform: scale(0.9);
+}
+
+.div2 {
+    height: 220px;
+    width: 220px;
+    /* background-color: red; */
+    padding-left: 10px;
+    background-image: url("OIP (6).webp");
+    background-size: cover;
+    border-radius: 50px;
+    transition: transform 0.3s ease;
+}
+
+.div2:hover {
+    transform: scale(0.9);
+}
+
+.div3 {
+    height: 220px;
+    width: 220px;
+    /* background-color: yellow; */
+    background-image: url("OIP (1).webp");
+    background-size: cover;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+}
+
+.div3:hover {
+    transform: scale(0.9);
+}
+
+.div4 {
+    height: 220px;
+    width: 220px;
+    /* background-color: blue; */
+    background-image: url("th.webp");
+    background-size: cover;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+}
+
+.div4:hover {
+    transform: scale(0.9);
+}
+
+.div5 {
+    height: 220px;
+    width: 220px;
+    /* background-color: blue; */
+    background-image: url("OIP (2).webp");
+    background-size: cover;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+}
+
+.div5:hover {
+    transform: scale(0.9);
+}
+
+
+/* .div6 {
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+     background-image: url("OIP (1).jpg");
+    background-size: cover;
+} */
+
+
+/* .div7 {
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+} */
+
+.p2 {
+    color: black;
+    font-weight: bolder;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    margin-left: 40px;
+    align-items: center;
+}
+
+.contents {
+    height: 50px;
+    color: black;
+    font-weight: bolder;
+    padding-left: 100px;
+    font-size: xx-large;
+    padding-top: 30px;
+}
+
+#input {
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: larger;
+}
+
+.itemss {
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    background-color: white;
+    padding: 10px;
+}
+
+.div11 {
+    height: 220px;
+    width: 270px;
+    /* background-color: blue; */
+    background-image: url('OIP (8).webp');
+    background-size: cover;
+    /* border-radius: 20px; */
+    transition: transform 0.3s ease;
+}
+
+.div11:hover {
+    transform: scale(1.1);
+}
+
+.div22 {
+    height: 220px;
+    width: 270px;
+    /* background-color: red; */
+    padding-left: 10px;
+    background-image: url("czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcHgxMDY2NjE4LWltYWdlLWt3dnkzdnltLmpwZw.webp");
+    background-size: cover;
+    /* border-radius: 20px; */
+    transition: transform 0.3s ease;
+}
+
+.div22:hover {
+    transform: scale(1.1);
+}
+
+.div33 {
+    height: 220px;
+    width: 270px;
+    /* background-color: yellow; */
+    background-image: url("restaurant-interior_1127-3394.avif");
+    background-size: cover;
+    /* border-radius: 20px; */
+    transition: transform 0.3s ease;
+}
+
+.div33:hover {
+    transform: scale(1.05);
+}
+
+.div44 {
+    height: 220px;
+    width: 270px;
+    /* background-color: blue; */
+    background-image: url("wp10322935.webp");
+    background-size: contain;
+    /* border-radius: 20px; */
+    transition: transform 0.3s ease;
+}
+
+.div44:hover {
+    transform: scale(1.05);
+}
+
+.p3 {
+    color: black;
+    font-weight: bolder;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    margin-left: 40p;
+    align-items: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.fot {
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot {
+    height: 300px;
+    background-color: rgb(27, 26, 26);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.img {
+    background-image: url("7bfacfc4a2a5a1e544bf41a4cb27bbc6_screen.jpg");
+    background-size: cover;
+    height: 250px;
+    width: 500px;
+}
