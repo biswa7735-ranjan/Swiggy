@@ -68,6 +68,12 @@ a {
     transition: transform 0.3s ease;
 }
 
+input::placeholder {
+    font-size: small;
+    text-align: center;
+    padding-top: 1px;
+}
+
 .div1:hover {
     transform: scale(0.9);
 }
@@ -272,4 +278,37 @@ a {
     background-size: cover;
     height: 250px;
     width: 500px;
+}
+
+.search-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    width: 30%;
+    margin: 0 auto;
+    background-color: #f5f6fa;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s
+}
+
+.search-container:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.search-container input {
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 16px;
+}
+
+.search-container i {
+    font-size: 18px;
+    cursor: pointer;
+    margin-left: 10px;
+    color: #666;
 }
